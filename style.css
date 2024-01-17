@@ -1,0 +1,632 @@
+@charset "UTF-8";
+
+/*Fontes:
+  Titulo: Quicksand
+  Texto: Josefin Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/*Cores:
+        #173261
+        #a9a9a9
+        #343538
+        #fff
+    */
+/*variaveis*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    background-color: #00798C;
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+    background-color: #00798C;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+
+}
+
+.onda img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.menu ul li a {
+    color: #3694a3;
+    font-family: 'Alatsi', sans-serif;
+
+
+}
+
+main img {
+    text-align: center;
+    width: 50%;
+
+}
+
+main p {
+    text-align: center;
+
+
+}
+
+.textoum p {
+    top: 60px;
+    margin: 20px;
+    font-size: 40px;
+    color: rgb(76, 76, 76);
+    text-align: justify;
+}
+
+.logo img {
+    height: auto;
+    width: 25%
+}
+
+#entrada {
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 30px black;
+
+}
+
+.imagementrada {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    height: 100px;
+
+}
+
+
+.slide {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-top: 10px;
+    
+}
+
+.slide button {
+    width: 180px;
+
+}
+
+.slideservicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+
+}
+
+.slider {
+    width: 100%;
+
+}
+
+#voltar,
+#ir {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+#voltar img,
+#ir img {
+    width: 100%;
+    height: 100%;
+}
+
+.comeco {
+    height: auto;
+}
+
+.textoum {
+    text-align: center;
+}
+
+.textoum img {
+    text-align: center;
+    margin-top: 60px;
+    width: 60%;
+}
+
+#imgservicos {
+    width: 15%;
+}
+
+.sobre {
+    text-align: center;
+    background-color: #f7cb46;
+    height: 60vh;
+}
+
+#curva {
+    width: 100%;
+}
+
+h1 {
+    margin-top: 6%;
+    color: #f7cb46;
+    font-size: 30px;
+}
+
+
+.sobre h1 {
+    padding-top: 5%;
+
+}
+
+.galeria{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #f96794;
+    position: static;
+   
+}
+
+#fotos{
+    width: 75%;
+    text-align: center;
+    margin-left: 3%;
+}
+
+#titulo{
+    width: 100%;
+}
+
+#mapa{
+    width: 75%;
+    text-align: center;
+    height: 250px;
+  
+}
+
+.divcontato{
+    text-align: center;
+}
+
+#titulocontato {
+    width: 40%;
+    padding-top: 30px;
+}
+
+#tituloentrada{
+    width: 80%;
+}
+
+
+.divcontato p{
+    padding-top:10px; 
+    font-family:'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.rodape{
+    text-align: center;
+    background-image: url(img/ou.png);
+    height: 270px
+}
+
+.rodape img{
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    margin-top: 160px;
+
+    
+}
+
+.rodape p{
+    padding-top: 20px;
+    color: white;
+}
+
+.rodape img{
+    width: 55px;
+}
+
+.mapa{
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 372px) {
+    .onda {
+        margin-top: 0%;
+
+    }
+
+
+    h1 {
+        font-size: 24px;
+    }
+
+
+    .imagementrada {
+        height: 14vh;
+
+    }
+
+    #entrada{
+        width: 85%;
+        padding: 1% 0% 0% 0%;
+    }
+
+    #sejabemvindo {
+        padding-top: 3%;
+        width: 70%;
+        padding-bottom: 2%;
+    }
+
+    .imagementrada{
+        padding-bottom: 6%;
+        padding-top: 4%;
+    }
+
+    .imagementrada p {
+        font-size: 12px;
+        padding: 2%;
+        margin: 0% 1% 0% 1%;
+        justify-content: baseline;
+        text-align: justify;
+    }
+    .slide{
+        height: 10vh;
+        padding-top: 20vh;
+    }
+    .sobre {
+        height: 38vh;
+    }
+
+    .rodape img{
+        width: 35px;
+    }
+}
+
+
+
+/*TABET PORTRAIT*/
+
+header {
+    height: 40px;
+    background-color: #00798C;
+}
+
+.logo img {
+    height: auto;
+}
+
+#check {
+    display: none;
+}
+
+label {
+    font-size: 40px;
+    position: fixed;
+    top: 40px;
+    right: 15px;
+    color: rgba(235, 235, 235, 0.486);
+
+}
+
+nav ul {
+    list-style: none;
+    height: 100vh;
+    position: fixed;
+    top: 115px;
+    right: -100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+#check:checked~ul {
+    right: 0;
+}
+
+nav ul li {
+    padding: 20px;
+    background-color:#00798C;
+    font-size: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+nav ul li {
+    border: 1px solid rgba(255, 255, 255, 0.131);
+    text-align: center;
+}
+
+.menu ul li a {
+    color: #00282e;
+
+}
+
+.onda {
+    margin-top: 50px;
+
+}
+
+.inicio {
+    float: left;
+
+}
+
+.inicio img {
+    max-width: 100%;
+    width: 1000px;
+    position: fixed;
+    top: 250px;
+    text-align: right;
+
+}
+
+.textoum {
+    max-width: 100%;
+}
+
+
+/*TABLET PORTRAIT*/
+@media (min-width: 768px) {
+    header {
+        background-color: #00798C;
+    }
+
+    .container {
+        background-color: #00798C;
+    }
+
+    .inicio {
+        background-color: #00798C;
+    }
+
+    .onda {
+        margin-top: 55px;
+    }
+
+    .onda img {
+        margin-top: -2px;
+
+    }
+
+    .meio img {
+        top: 220px;
+    }
+
+    .logo img {
+        height: auto;
+        margin-left: 15%;
+    }
+
+    .slideservicos {
+        width: 100%;
+
+    }
+
+    #sejabemvindo {
+        padding-top: 3%;
+    }
+
+    #entrada{
+        width: 90%;
+        padding: 2% 0% 0% 0%;
+    }
+
+    .imagementrada{
+        padding-bottom: 14%;
+    }
+
+    .imagementrada p {
+        font-size: 17px;
+        padding: 2%;
+        margin: 0% 2% 0% 2%;
+        justify-content: baseline;
+        text-align: justify;
+    }
+
+    .sobre {
+        height: 45vh;
+    }
+}
+
+
+/*TABLET LANDSCAPE*/
+@media (min-width: 992px) {}
+
+/*PC*/
+@media (min-width: 1200px) {
+
+
+    .container {
+        max-width: 1140px;
+        background-color: #00798C;
+    }
+
+    header {
+        height: 128px;
+        background-color: #00798C;
+
+    }
+
+    .logo img {
+        width: 90px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        margin-right: 250px;
+        height: auto;
+        margin-top: 50px;
+
+    }
+
+    nav ul li {
+        text-align: center;
+        display: inline;
+        border: 0;
+        margin: 0px 20px 0px 20px;
+        background-color: #00798C;
+
+    }
+
+    nav ul li a {
+        text-align: center;
+        font-size: 25px;
+
+
+    }
+
+    .menu ul li a {
+        color: #7cb4bc;
+    }
+
+    nav ul a:hover {
+        color: #024f5b;
+    }
+
+    .onda {
+        margin-top: 2px;
+
+    }
+
+    main {
+        height: 800px;
+    }
+
+    .textoum p {
+        text-align: center;
+        margin: 20px 50px 0px 50px;
+        font-size: 23px;
+    }
+
+    .textoum img {
+        width: 40%;
+    }
+
+    .slideservicos {
+        width: 50%;
+        margin: 0px 150px 0px 150px;
+    }
+
+    .imagementrada {
+        height: 78vh;
+
+    }
+
+    .imagementrada p {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 0px;
+
+    }
+
+    #sejabemvindo {
+        width: 35%;
+        padding-top: 20px;
+    }
+
+    #entrada{
+        width: 65%;
+        padding: 1% 0% 5% 0%;
+        border-radius: 15px;
+    }
+
+    .imagementrada{
+        padding-bottom: 40%;
+    }
+
+    .imagementrada p {
+        font-size: 20px;
+        padding: 1%;
+        margin: 0% 0% 0% 0%;
+        justify-content: baseline;
+        text-align: center;
+    }
+
+    .sobre{
+        padding-top: 10%;
+    }
+
+    #mapa{
+        width: 55%;
+        height: 400px;
+ 
+    }
+
+    .slide {
+        padding-top: 180px;
+    }
+
+    .slide{
+        height: 10vh;
+        padding-top: 20vh;
+    }
+    .sobre {
+        height: 444px;
+    }
+
+    .galeria{
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    #tituloentrada{
+        width: 40%;
+    }
+
+    #titulo{
+        width: 60%;
+    }
+
+    #titulocontato{
+        width: 22%;
+        padding-top: 40px;
+    }
+    .mapa{
+        padding-bottom: 30px;
+    }
+}
